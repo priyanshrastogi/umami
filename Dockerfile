@@ -37,7 +37,7 @@ RUN adduser --system --uid 1001 nextjs
 
 RUN set -x \
     && apk add --no-cache curl \
-    && yarn add npm-run-all dotenv prisma semver
+    && yarn add npm-run-all dotenv prisma@5.17.0 semver
 
 # You only need to copy next.config.js if you are NOT using the default configuration
 COPY --from=builder /app/next.config.js .
