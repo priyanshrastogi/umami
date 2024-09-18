@@ -21,7 +21,7 @@ const contentSecurityPolicy = [
   `script-src 'self' 'unsafe-eval' 'unsafe-inline'`,
   `style-src 'self' 'unsafe-inline'`,
   `connect-src 'self' api.umami.is cloud.umami.is`,
-  `frame-ancestors 'self' https://living.so https://app.living.so https://living-so.dev https://app.living-so.dev`,
+  `frame-ancestors 'self' https://discoverable.so https://app.discoverable.so https://living.so https://app.living.so https://living-so.dev https://app.living-so.dev`,
 ];
 
 const headers = [
